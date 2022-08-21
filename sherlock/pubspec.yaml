@@ -1,0 +1,22 @@
+name: sherlock
+description: Homegrown error monitoring solution
+version: 0.0.1
+repository: https://github.com/ueman/sherlock
+
+environment:
+  sdk: '>=2.18.0-0 <3.0.0'
+  flutter: ">=3.1.0-0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_info_plus: ^4.0.0
+  package_info_plus: ^1.4.2
+  stack_trace: ^1.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
